@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Terraform (state can contain secrets)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Secrets and local settings
+.env
+
+# Build output
+dist/
+*.zip
+
+.DS_Store
